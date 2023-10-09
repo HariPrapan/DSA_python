@@ -9,7 +9,7 @@ def binary_search(L, v):
   else:
     return binary_search(L[mid + 1:], v)
 
-
+# L is a sorted list
 m = []
 for i in range(1000000):
   m.append(i)
