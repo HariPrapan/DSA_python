@@ -10,6 +10,7 @@ def binary_search(L, v):
     return binary_search(L[mid + 1:], v)
 
 # L is a sorted list
+# Time complexicity : O(log n)
 m = []
 for i in range(1000000):
   m.append(i)
